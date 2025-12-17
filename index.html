@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" prefix="og: https://ogp.me/ns#">
+  <!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta property="og:image" content="images/img_bg_1.jpg" /> -->
+    <title>💖 Thiệp cưới — Hải & Phương 💖</title>
+    <meta property="og:title" content="💖 Thiệp Cưới — Hải & Phương 💖" />
+    <meta
+      property="og:description"
+      content="Trân trọng kính mời Quý vị đến dự tiệc cưới của Hải & Phương vào ngày 04/01/2026 ♡"
+    />
+    <meta
+  property="og:image"
+  content="https://hai-phuong-wedding.vercel.app/images/thiepmoinew.jpg"
+/>
+
+    <!-- <meta property="og:url" content="https://hai-phuong-wedding.vercel.app" /> -->
+    <meta property="og:type" content="website" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+
+    <!-- them style tiền mừng  -->
+    <link rel="stylesheet" href="./css/style1.css" />
+    <link rel="stylesheet" href="./css/styles10.css" />
+    <link rel="stylesheet" href="./css/namtay.css" />
+    <link rel="stylesheet" href="./css/animate-custom.css" />
+    
+    <!-- Style cho nút bật/tắt nhạc và tooltip -->
+    <style>
+      /* Nút bật/tắt nhạc */
+      .music-toggle-btn {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.9);
+        border: 2px solid rgba(237, 28, 36, 0.3);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        transition: all 0.3s ease;
+        font-size: 28px;
+        padding: 0;
+        outline: none;
+      }
+      
+      .music-toggle-btn:hover {
+        background: rgba(255, 255, 255, 1);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+        transform: scale(1.05);
+      }
+      
+      .music-toggle-btn:active {
+        transform: scale(0.95);
+      }
+      
+      /* Tooltip hướng dẫn */
+      .music-tooltip {
+        position: fixed;
+        bottom: 90px;
+        left: 20px;
+        background: rgba(237, 28, 36, 0.95);
+        color: white;
+        padding: 12px 18px;
+        border-radius: 8px;
+        font-size: 14px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        z-index: 1001;
+        opacity: 0;
+        transform: translateY(10px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        pointer-events: none;
+        white-space: nowrap;
+        max-width: calc(100vw - 100px);
+      }
+      
+      .music-tooltip.show {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      
+      .music-tooltip::after {
+        content: '';
+        position: absolute;
+        bottom: -8px;
+        left: 30px;
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 8px solid rgba(237, 28, 36, 0.95);
+      }
+      
+      /* Responsive cho mobile */
+      @media (max-width: 768px) {
+        .music-toggle-btn {
+          width: 50px;
+          height: 50px;
+          bottom: 15px;
+          left: 15px;
+          font-size: 24px;
+        }
+        
+        .music-tooltip {
+          bottom: 75px;
+          left: 15px;
+          font-size: 13px;
+          padding: 10px 15px;
+          white-space: normal;
+          max-width: calc(100vw - 80px);
+        }
+      }
+    </style>
+
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="my-bg">
+      <div class="wrapper" id="startbtn">
+        <div class="lid one"></div>
+        <div class="lid two"></div>
+        <div class="envelope" style="position: relative; text-align: center">
+          <!-- Ô hiển thị chữ Thiệp Mời -->
+          <div id="invite-label">Thiệp Mời</div>
+          <button
+            id="open-card-button"
+            style="
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              background: transparent;
+              border: none;
+              cursor: pointer;
+              z-index: 3;
+              animation: bounce 1.5s infinite;
+            "
+          >
+            <img
+              src="./images/animations/Animation - iconclick.gif"
+              alt="Click here"
+              width="100"
+              height="100"
+            />
+          </button>
+
+          <div
+            id="send-to"
+            class="fade-in-text alt-font"
+            style="
+              position: absolute;
+              top: 50px;
+              left: 50%;
+              transform: translateX(-50%);
+              font-size: 18px;
+              color: #ed1c24;
+              font-weight: bold;
+              opacity: 0;
+              white-space: nowrap;
+              text-align: right;
+              z-index: 2;
+            "
+          >
+            <!-- Gửi: ... -->
+          </div>
+        </div>
+        <div class="letter">
+          <p class="alt-font">
+            Thiệp cưới! <br />
+            Hải & Phương
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="fh5co-loader"></div>
+    <audio id="music" loop preload="auto">
+      <source src="beautifulinwhite.mp3" type="audio/mpeg" />
+    </audio>
+    
+    <!-- Nút bật/tắt nhạc -->
+    <button id="music-toggle-btn" class="music-toggle-btn" aria-label="Bật/Tắt nhạc">
+      <span id="music-icon">🔇</span>
+    </button>
+    
+    <!-- Tooltip hướng dẫn -->
+    <div id="music-tooltip" class="music-tooltip">
+      Nhấn vào biểu tượng loa để bật nhạc 🎵
+    </div>
+    
+    <div id="page">
+      <nav class="fh5co-nav" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-2">
+              <div id="fh5co-logo">
+                <a href="">Wedding<strong>.</strong></a>
+              </div>
+            </div>
+            <!-- <div class="col-xs-10 text-right menu-1">
+              <ul>
+                <li><a href="#fh5co-couple-story">Story</a></li>
+                <li><a href="#fh5co-gallery">Gallery</a></li>
+              </ul>
+            </div> -->
+          </div>
+        </div>
+      </nav>
+
+      <header
+        id="fh5co-header"
+        class="fh5co-cover"
+        role="banner"
+        style="background-image: url(images/img_bg_1.jpg)"
+        data-stellar-background-ratio="0.5"
+      >
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <div class="display-t">
+                <div
+                  class="display-tc animate-box"
+                  data-animate-effect="fadeIn"
+                >
+                  <p
+                    style="
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      margin-bottom: 80px;
+                    "
+                  >
+                    <img
+                      src="./images/animations/savethedate_wh.gif"
+                      data-bottom-top="@src:./images/animations/savethedate_wh.gif; opacity:1"
+                      class="gla_animated_flower"
+                      height="100"
+                      alt
+                      style="opacity: 1"
+                    />
+                  </p>
+                  <h1>Ngọc Hải &amp;</h1> <br /> <h1>Minh Phương</h1> 
+                    <!-- &amp; 
+                    Minh Phương</h1> -->
+                  <h2>Sẽ tổ chức đám cưới vào</h2>
+                  <div class="wedding-date">
+                    <span>04 Tháng 01 2026</span>
+                  </div>
+
+                  <div class="simply-countdown simply-countdown-one"></div>
+                  <p>
+                    <!-- <a href="#fh5co-started" class="btn btn-default btn-sm"
+                      >Tham dự</a
+                    > -->
+                    <a id="scroll-to-start" class="btn btn-default btn-sm"
+                      >Tham dự</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div id="fh5co-couple">
+        <div class="container">
+          <p
+            style="display: flex; justify-content: center; align-items: center"
+          >
+            <img
+              src="./images/animations/flower5.gif"
+              data-bottom-top="@src:./images/animations/flower5.gif; opacity:1"
+              class="gla_animated_flower"
+              height="100"
+              alt
+              style="opacity: 1"
+            />
+          </p>
+          <div class="row">
+            <div
+              class="col-md-8 col-md-offset-2 text-center fh5co-heading fade-in-up"
+            >
+              <h2>Xin chào!</h2>
+              <h4 style="margin-top: 40px">TRÂN TRỌNG KÍNH MỜI</h4>
+              <p class="alt-font">
+                <span
+                  style="color: #ed1c24; font-size: 150%; text-transform: none"
+                  ><strong>Quý Khách</strong></span
+                >
+              </p>
+              <h4>ĐẾN DỰ BỮA TIỆC CHUNG VUI CÙNG GIA ĐÌNH</h4>
+
+              <div class="col">
+                <div
+                  class="invitation-box calendar-box"
+                  style="
+                    height: auto;
+                    padding: 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 12px;
+                    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                    background-color: #fff;
+                  "
+                >
+                  <div class="inner text-center">
+                    <div class="mini_calendar">
+                      <div style="font-size: 30px; margin-bottom: 10px">
+                        <p class="heart text-center fade-in-up">
+                          <i class="icon-heart2"></i>
+                        </p>
+                      </div>
+                      <table style="width: 100%; border-collapse: collapse">
+                        <caption
+                          class="calendar-month text-center"
+                          style="
+                            font-size: 18px;
+                            font-weight: bold;
+                            margin-bottom: 10px;
+                            position: relative;
+                          "
+                        >
+                          Tháng 01 / 2026
+                        </caption>
+                        <thead>
+                          <tr>
+                            <th>CN</th>
+                            <th>T.2</th>
+                            <th>T.3</th>
+                            <th>T.4</th>
+                            <th>T.5</th>
+                            <th>T.6</th>
+                            <th>T.7</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td><div class="highlight-date">3</div></td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10</td>
+                          </tr>
+                          <tr>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                          </tr>
+                          <tr>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                          </tr>
+                          <tr>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                            <td>30</td>
+                            <td>31</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- nút lưu lịch  -->
+              <!-- <div>
+                <a
+                  id="calendar-button"
+                  class="btn btn-sm shadow rounded-pill px-3 my-2 btn-primary"
+                  href="#"
+                  onclick="handleCalendarClick()"
+                >
+                  <i class="fa-solid fa-calendar-check me-2"></i> Lưu Vào Lịch
+                </a>
+              </div>
+              <div style="display: flex; justify-content: center">
+                <div class="h-divider">
+                  <div class="shadow"></div>
+                </div>
+              </div> -->
+
+              <!-- <div class="invitation-frame">
+                <span style="font-size: 2em">10 giờ 30 phút</span>
+                <div
+                  class="invitation-date"
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <div><button class="custom-button">THỨ TƯ</button></div>
+                  <div
+                    style="
+                      font-size: 1.5em;
+                      letter-spacing: 0.1em;
+                      margin-top: 5px;
+                      font-size: 7em;
+                      margin: 0px 20px;
+                      padding: 0px;
+                    "
+                  >
+                    02
+                  </div>
+                  <div>
+                    <button class="custom-button">Tháng 07</button>
+                  </div>
+                </div>
+                <span style="font-size: 2em; letter-spacing: 0.1em"> 2025</span>
+
+                <div>
+                  <a
+                    id="calendar-button"
+                    class="btn btn-sm shadow rounded-pill px-3 my-2 btn-primary"
+                    href="#"
+                    onclick="handleCalendarClick()"
+                  >
+                    <i class="fa-solid fa-calendar-check me-2"></i> Lưu Vào Lịch
+                  </a>
+                </div>
+                <div style="display: flex; justify-content: center">
+                  <div class="h-divider">
+                    <div class="shadow"></div>
+                  </div>
+                </div>
+              </div> -->
+              <h3>Tại tư gia nhà gái</h3>
+              <h4>
+                <em>Số 39 Hữu Nghị, xã Cổ Lễ, thành phố Ninh Bình</em>
+              </h4>
+            </div>
+          </div>
+          <div class="couple-wrap animate-box">
+            <div class="couple-half fade-in-left">
+              <div class="groom">
+                <img
+                  src="images/groom.jpg"
+                  alt="groom"
+                  class="img-responsive"
+                />
+              </div>
+              <div class="desc-groom">
+                <h3>Bùi Ngọc Hải</h3>
+                <p>Chú rể</p>
+              </div>
+            </div>
+            <p class="heart text-center fade-in-up">
+              <i class="icon-heart2"></i>
+            </p>
+            <div class="couple-half fade-in-right">
+              <div class="bride">
+                <img
+                  src="images/bride.jpg"
+                  alt="groom"
+                  class="img-responsive"
+                />
+              </div>
+              <div class="desc-bride">
+                <h3>Vũ Thị Minh Phương</h3>
+                <p>Cô dâu</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- hành trình quen nhau của cr và cd -->
+      <!-- <div id="fh5co-couple-story">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box"
+            >
+              <span>We Love Each Other</span>
+              <h2>Love Story</h2>
+              <p>Hành trình tới hạnh phúc</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-md-offset-0">
+              <ul class="timeline animate-box">
+                <li class="animate-box">
+                  <div
+                    class="timeline-badge"
+                    style="background-image: url(images/1st-met.jpg)"
+                  ></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3 class="timeline-title">Lần đầu gặp gỡ</h3>
+                      <span class="date">25-05-2023</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        Lần đầu gặp mặt sau những dòng tin nhắn, và đây cũng là
+                        ngày sinh nhật của 'Anh ấy'
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted animate-box">
+                  <div
+                    class="timeline-badge"
+                    style="background-image: url(images/1st-date.jpg)"
+                  ></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3 class="timeline-title">Lần hẹn hò đầu tiên</h3>
+                      <span class="date">25-05-2023</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        Lần đầu gặp mặt sau những dòng tin nhắn trên điện thoại,
+                        và đây cũng là ngày sinh nhật của 'Anh ấy'
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="animate-box">
+                  <div
+                    class="timeline-badge"
+                    style="background-image: url(images/to-tinh.jpg)"
+                  ></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3 class="timeline-title">
+                        Bắt đầu mối quan hệ nghiêm túc
+                      </h3>
+                      <span class="date">01-07-2023</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        Sau những chuyến xe Huế- Đà Nẵng rồi Đà Nẵng- Huế, chúng
+                        tôi cũng đã có được quyết định sẽ cùng nhau xây dựng
+                        hạnh phúc.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted animate-box">
+                  <div
+                    class="timeline-badge"
+                    style="background-image: url(images/cau-hon.jpg)"
+                  ></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3 class="timeline-title">Ngỏ lời</h3>
+                      <span class="date">24-12-2023</span>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Kỷ niệm 1 năm bên nhau bằng lời cầu hôn</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <div id="fh5co-gallery" class="fh5co-section-gray">
+        <div class="container">
+          <p
+            style="display: flex; justify-content: center; align-items: center"
+          >
+            <img
+              src="./images/animations/flower6.gif"
+              data-bottom-top="@src:./images/animations/flower6.gif; opacity:1"
+              class="gla_animated_flower"
+              height="100"
+              alt
+              style="opacity: 1"
+            />
+          </p>
+          <div class="row">
+            <div
+              class="col-md-8 col-md-offset-2 text-center fh5co-heading fade-in-up"
+            >
+              <span>Our Memories</span>
+              <h2>Album Ảnh Cưới</h2>
+            </div>
+          </div>
+          <div class="row row-bottom-padded-md">
+            <div class="col-md-12">
+              <ul id="fh5co-gallery-list">
+                <li
+                  class="animate-box"
+                  data-animate-effect="fadeIn"
+                  style="
+                    background-image: url(images/gallery-1.jpg);
+                    width: 100%;
+                  "
+                >
+                  <a href="#!" onclick="showLightBox();">
+                    <div class="case-studies-summary">
+                      <span id="num-of-photos"></span>
+                      <h2>Gallery</h2>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="fh5co-event"
+        class="fh5co-bg"
+        style="background-image: url(images/img_bg_3.jpg)"
+      >
+        <div class="overlay"></div>
+        <div class="container">
+          <p
+            style="display: flex; justify-content: center; align-items: center"
+          >
+            <img
+              src="./images/animations/flower7.gif"
+              data-bottom-top="@src:./images/animations/flower7.gif; opacity:1"
+              class="gla_animated_flower"
+              height="100"
+              alt
+              style="opacity: 1"
+            />
+          </p>
+          <div class="row">
+            <div
+              class="col-md-8 col-md-offset-2 text-center fh5co-heading fade-in-up"
+            >
+              <span>Our Special Events</span>
+              <h2>Thời gian sự kiện</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="display-t">
+              <div class="display-tc">
+                <div class="col-md-10 col-md-offset-1">
+                  <div class="col-md-6 col-sm-6 text-center">
+                    <div class="event-wrap fade-in-left">
+                      <h3>Bữa cơm thân mật</h3>
+                      <div class="event-col">
+                        <i class="icon-clock"></i>
+                        <span>16:00</span>
+                        <span>🥂 ∞</span>
+                      </div>
+                      <div class="event-col">
+                        <i class="icon-calendar"></i>
+                        <span>Thứ Bảy 03-01-2025</span> 
+                        <span>Tức ngày 15-11 Ất Tỵ</span>
+                      </div>
+                      <p>Tư gia nhà gái - Số 39 Hữu Nghị, xã Cổ Lễ, thành phố Ninh Bình</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 text-center">
+                    <div class="event-wrap fade-in-right">
+                      <h3>Lễ Vu Quy</h3>
+                      <div class="event-col">
+                        <i class="icon-clock"></i>
+                        <span>07:30</span>
+                        <span>08:30</span>
+                      </div>
+                      <div class="event-col">
+                        <i class="icon-calendar"></i>
+                        <span>Chủ Nhật 04-01-2025</span>
+                        <span>Tức ngày 16-11 Ất Tỵ</span>
+                      </div>
+                      <p>Tư gia nhà gái - Số 39 Hữu Nghị, xã Cổ Lễ, thành phố Ninh Bình</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="fh5co-couple"
+        class="fh5co-bg fh5co-heading fade-in-up"
+        style="padding-top: 50px; margin-bottom: 0"
+      >
+        <h2 style="text-align: center; color: black">Bản đồ tới nhà cô dâu</h2>
+        <div id="map-wrapper">
+          <div class="map-flower top-left"></div>
+          <div class="map-flower bottom-right"></div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233.84752910500123!2d106.26831960336304!3d20.31845248358683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31360940b9f76c9f%3A0xc4d7ed65e6b4d68e!2zU-G7r2EgTm9uIE5hdHJ1bWF4IFF1YW5nIEjhurFuZw!5e0!3m2!1sen!2s!4v1765970267322!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!-- Nút Xem Google Map -->
+        <div style="text-align: center; margin-top: 0px">
+          <a
+            id="view-map-button"
+            class="btn btn-outline-light btn-sm shadow rounded-pill px-3 my-2 fade-in-left"
+            href="https://maps.app.goo.gl/Pkegfp8pPaVyhu2j7"
+            target="_blank"
+          >
+            <i class="fa-solid fa-map-location-dot me-2"></i> Xem Google Map
+          </a>
+        </div>
+      </div>
+
+      <div
+        id="fh5co-started"
+        class="fh5co-bg"
+        style="background-image: url(images/img_bg_4.jpg)"
+      >
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row fade-in-up">
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+              <h2>Bạn có thể tham dự tiệc cưới không?</h2>
+              <p>
+                Hãy cho tụi mình biết kế hoạch của bạn <br />
+                để có thể chuẩn bị sự tiếp đón tốt nhất
+              </p>
+            </div>
+          </div>
+          <div class="row animate-box">
+            <div class="col-md-12">
+              <form
+                class="form-inline"
+                id="attend-form"
+                onsubmit="event.preventDefault(); return false;"
+              >
+                <div class="col-md-4 col-sm-4">
+                  <div class="form-group">
+                    <label for="name" class="sr-only">Tên</label>
+                    <input
+                      type="name"
+                      class="form-control"
+                      id="name"
+                      placeholder="Tên hoặc biệt danh gợi nhớ"
+                      title="Hãy chọn một tên hoặc biệt danh mà gia đình dễ dàng nhận ra bạn. Ví dụ: Hoàng PTIT, Hiếu wibu, ..."
+                    />
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                  <div class="form-group">
+                    <label for="guest-types" class="sr-only">Bạn là</label>
+                    <select
+                      name="guest-types"
+                      id="guest-types"
+                      class="form-control"
+                      style="cursor: pointer"
+                    >
+                      <option value="0" >Khách của chú rể</option>
+                      <option value="1"selected>Khách của cô dâu</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-2">
+                  <button
+                    type="submit"
+                    class="btn btn-primary btn-block fade-in-left"
+                    id="yes-btn"
+                  >
+                    Có
+                  </button>
+                </div>
+                <div class="col-md-2 col-sm-2">
+                  <button
+                    type="submit"
+                    class="btn btn-primary btn-block fade-in-right"
+                    id="no-btn"
+                  >
+                    Không
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ===== SECTION: HỘP MỪNG CƯỚI ===== -->
+        <div
+          class="content"
+          style="padding: 0; margin: 0 auto"
+        >
+          <div
+            class="card v-card"
+            style="
+              position: relative;
+              padding: 30px;
+              border-radius: 12px;
+              box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            "
+          >
+              <span class="v-btn__content">
+                <span
+                  aria-hidden="true"
+                  class="v-icon notranslate theme--light"
+                >
+                </span>
+              </span>
+            </button>
+
+            <!-- Ảnh / QR-Code -->
+            <div style="margin-bottom: 20px; text-align: center">
+              <img
+                src="https://ucarecdn.com/a43b6688-d4a7-410c-8fc8-33b3c6dcdffd/-/format/auto/-/preview/3000x3000/-/quality/lighter/r1%20_1_.png"
+                alt="Thiệp Mừng"
+                style="max-width: 100%; height: auto; border-radius: 8px"
+              />
+            </div>
+
+            <!-- Tiêu đề & Lời nhắn -->
+            <div class="text-center dialogtitile" style="margin-bottom: 20px">
+              <h3
+                style="
+                  font-family: 'Dancing Script', cursive;
+                  font-size: 2rem;
+                  color: #d1456e;
+                  margin-bottom: 8px;
+                "
+              >
+                Mừng cưới đến Cô dâu & Chú rể
+              </h3>
+              <h5 style="font-style: italic; color: #999">
+                *Của chồng công vợ – Tuy hai mà một, tuy một mà hai*
+              </h5>
+            </div>
+
+            <!-- Thông tin ngân hàng -->
+            <div class="bank" style="text-align: center; margin-bottom: 20px">
+              <img
+                src="images/stk_bride.jpg"
+                alt="QR chuyển tiền"
+                style="
+                  width: 60%;
+                  height: auto;
+                  margin-bottom: 12px;
+                "
+              />
+              <ul
+                style="
+                  list-style: none;
+                  padding: 0;
+                  margin: 0;
+                  color: #555;
+                  font-size: 1.2rem;
+                  line-height: 1.5;
+                "
+              >
+                <li><strong>Ngân hàng:</strong> Vietinbank</li>
+                <li><strong>Tên tài khoản:</strong> VU THI MINH PHUONG</li>
+                <li><strong>STK:</strong>101871058947</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      <!-- ======================================= -->
+
+      <!-- chân trang -->
+      <div
+        id="fh5co-started"
+        class="fh5co-bg"
+        style="
+          background-image: url(images/img_bg_2.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: top center;
+        "
+      >
+        <div class="overlay"></div>
+        <div class="container" style="max-width: 100%; padding-bottom: 100px">
+          <p
+            style="display: flex; justify-content: center; align-items: center"
+          >
+            <img
+              src="./images/animations/thnyou_wh.gif"
+              data-bottom-top="@src:./images/animations/thnyou_wh.gif; opacity:1"
+              class="gla_animated_flower"
+              height="100"
+              alt
+              style="opacity: 1"
+            />
+          </p>
+          <div class="row animate-box" style="margin: 0">
+            <div
+              class="col-md-12 text-center fh5co-heading fade-in-up"
+              style="padding: 50px 20px"
+            >
+              <p class="alt-font">
+                Sự hiện diện của
+                <strong id="guestName">Quý Khách</strong>
+                là niềm vinh hạnh cho hai bên gia đình ♡
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- "Product by Bơbabop" -->
+        <div
+          style="
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            font-size: 12px;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 2px 0;
+          "
+        >
+          Product by <strong>Bơbabop</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="gototop js-top">
+      <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+    </div>
+
+    <!-- thiệp mừng cưới lì xì -->
+    <div id="popupQR" class="dialog" style="display: none">
+      <div class="content">
+        <div class="card v-card">
+          <button
+            data-v-3a358218=""
+            type="button"
+            class="close-btn v-btn v-btn--icon v-btn--round theme--light v-size--default"
+            onclick="hideDialogDonate()"
+          >
+            <span class="v-btn__content">
+              <span
+                data-v-3a358218=""
+                aria-hidden="true"
+                class="v-icon notranslate theme--light"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  aria-hidden="true"
+                  class="v-icon__svg"
+                >
+                  <path
+                    d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"
+                  ></path>
+                </svg>
+              </span>
+            </span>
+          </button>
+          <div>
+            <img
+              style="width: 100%; height: auto"
+              src="https://ucarecdn.com/a43b6688-d4a7-410c-8fc8-33b3c6dcdffd/-/format/auto/-/preview/3000x3000/-/quality/lighter/r1%20_1_.png"
+            />
+          </div>
+          <div class="text-center dialogtitile">
+            <h3>Mừng cưới đến cô dâu và chú rể</h3>
+            <h5>*Của chồng công vợ - Tuy hai mà một, tuy một mà hai*</h5>
+          </div>
+          <div class="bank">
+            <!-- <span><b>ĐANG MINH DUNG</b></span
+            ><br />
+            <div>
+              <span style="color: #4f3fa9; font-weight: bold; font-size: 19px"
+                >TECHCOM</span
+              ><span style="color: #7864e8; font-size: 18px">Bank</span
+              ><span>&nbsp;-&nbsp;111&nbsp;1111&nbsp;111</span>
+            </div> -->
+            <img src="images/stk_groom.jpg" />
+          </div>
+          <br />
+          <button
+            class="popup-close btn btn-primary btn-block"
+            onclick="hideDialogDonate()"
+          >
+            Xin cảm ơn
+          </button>
+
+          <br />
+        </div>
+      </div>
+    </div>
+    <div
+      data-id="donate-fab"
+      id="call-to-donate"
+      style="bottom: 0px"
+      onclick="showDialogDonate()"
+    >
+      <a>
+        <div class="sticky-btn-wrapper">
+          <img src="./assets/img/theme/front.svg" class="front" />
+          <svg
+            width="86"
+            height="97"
+            viewBox="0 0 86 97"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="sticky-btn-opener"
+          ></svg>
+          <img src="./assets/img/theme/back.svg" class="back" />
+          <img src="./assets/img/theme/button.svg" class="button" />
+          <img src="./assets/img/money1.png" class="money1" />
+          <img src="./assets/img/money2.png" class="money2" />
+          <img src="./assets/img/money3.png" class="money3" />
+        </div>
+      </a>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="popup-modal">
+      <!-- Modal content -->
+      <div class="popup-modal-content text-center" style="border-radius: 15px">
+        <p>Thật đáng tiếc khi bạn không thể tới dự tiệc</p>
+        <p>Món quà cưới bạn có thể gửi tặng gia đình tại đây</p>
+
+        <div class="bank">
+          <!-- <img src="images/stk_groom.jpg" /> -->
+          <img src="images/stk_bride.jpg" />
+        </div>
+        <br />
+        <button
+          class="popup-close btn btn-primary btn-block"
+          onclick="document.getElementById('myModal').style.display = 'none';"
+        >
+          Xin cảm ơn
+        </button>
+      </div>
+    </div>
+
+    <div id="myModalYes" class="popup-modal">
+      <!-- Modal content -->
+      <div class="popup-modal-content" style="border-radius: 15px">
+        <p>Hẹn gặp lại tại bữa tiệc</p>
+        <button
+          class="popup-close btn btn-primary btn-block"
+          onclick="document.getElementById('myModalYes').style.display = 'none';"
+        >
+          Xin cảm ơn
+        </button>
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- countTo -->
+    <script src="js/jquery.countTo.js"></script>
+
+    <!-- Stellar -->
+    <script src="js/jquery.stellar.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+
+    <!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
+    <script src="js/simplyCountdown.js"></script>
+    <!-- Main -->
+    <script src="js/main.js"></script>
+
+    <script src="js/fslightbox.js"></script>
+
+    <script>
+      const startbtn = document.getElementById("startbtn");
+      const content = document.getElementById("page");
+      const music = document.getElementById("music");
+      const bg = document.getElementsByClassName("my-bg")[0];
+      music.volume = 0.3;
+
+      startbtn.addEventListener("click", () => {
+        bg.style.display = "none";
+        // Không tự phát nhạc, chỉ hiển thị nội dung
+        content.style.display = "block";
+
+        // 🔥 Pháo hoa nổ
+        confetti({
+          particleCount: 200,
+          spread: 80,
+          origin: { y: 0.6 },
+        });
+
+        // 🌸 Khởi động particles.js với hiệu ứng hoa rơi
+        particlesJS("particles-js", {
+          particles: {
+            number: { value: 10, density: { enable: true, value_area: 800 } },
+            shape: {
+              type: "image",
+              image: {
+                src: "https://cdn-icons-png.flaticon.com/512/833/833472.png",
+                width: 32,
+                height: 32,
+              },
+            },
+            opacity: { value: 0.8 },
+            size: { value: 20, random: true },
+            move: {
+              direction: "bottom",
+              out_mode: "out",
+              speed: 1.5,
+            },
+          },
+          interactivity: {
+            events: {
+              onhover: { enable: false },
+              onclick: { enable: false },
+            },
+          },
+          retina_detect: true,
+        });
+      });
+
+      var d = new Date(new Date("2026-01-04 11:00:00"));
+
+      gallery = [];
+      for (let n = 1; n <= 15; n++) {
+        gallery.push(`images/gallery-${n}.jpg`);
+      }
+
+      $("#num-of-photos").html(gallery.length + " Photos");
+
+      simplyCountdown(".simply-countdown-one", {
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate(),
+        hours: d.getHours(),
+        minutes: d.getMinutes(),
+        seconds: d.getSeconds(),
+      });
+
+      document
+        .getElementById("yes-btn")
+        .addEventListener("click", async (event) => {
+          const guest_name = $("#name").val();
+          const guest_type = $("#guest-types").val();
+
+          if (!guest_name) {
+            showAlertPopup();
+            return;
+          }
+
+          fetch(
+            "https://script.google.com/macros/s/AKfycbz8NHL0pesmq6rfAuGF5soU9_dYBya9UqxttVIPZwIEPtryFy3Y5tRPcEBKIGZ1ilqtWQ/exec",
+            {
+              method: "POST",
+              headers: { "Content-Type": "application/x-www-form-urlencoded" },
+              body: new URLSearchParams({
+                name: guest_name,
+                type: guest_type,
+                attend: "1",
+              }),
+            }
+          );
+
+          $("#name").val("");
+          document.getElementById("myModalYes").style.display = "flex";
+        });
+
+      document
+        .getElementById("no-btn")
+        .addEventListener("click", async (event) => {
+          const guest_name = $("#name").val();
+          const guest_type = $("#guest-types").val();
+          if (!guest_name) {
+            showAlertPopup();
+            return;
+          }
+
+          fetch(
+            "https://script.google.com/macros/s/AKfycbz8NHL0pesmq6rfAuGF5soU9_dYBya9UqxttVIPZwIEPtryFy3Y5tRPcEBKIGZ1ilqtWQ/exec",
+            {
+              method: "POST",
+              headers: { "Content-Type": "application/x-www-form-urlencoded" },
+              body: new URLSearchParams({
+                name: guest_name,
+                type: guest_type,
+                attend: "0",
+              }),
+            }
+          );
+
+          $("#name").val("");
+          document.getElementById("myModal").style.display = "flex";
+        });
+
+      function showLightBox() {
+        var lightbox = new FsLightbox();
+        lightbox.props.sources = gallery;
+        lightbox.open();
+      }
+
+      document.addEventListener("DOMContentLoaded", (event) => {
+        var w = window.innerWidth;
+        if (innerWidth < 512)
+          document.getElementById("fh5co-header").style.backgroundImage =
+            'url("images/img_bg_1.jpg")';
+      });
+      // mừng cưới
+      function showDialogDonate() {
+        document.querySelector(`#popupQR`).style.display = "flex";
+        disableScroll();
+        // document.body.style.pointerEvents = "none";
+      }
+      function hideDialogDonate() {
+        document.querySelector(`#popupQR`).style.display = "none"; // Ẩn popup
+        enableScroll(); // Bật lại cuộn trang khi popup bị ẩn
+        document.body.style.pointerEvents = "auto"; // Cho phép tương tác với các phần tử khác trên trang
+      }
+      function disableScroll() {
+        document.body.style.overflowY = "hidden";
+        document.querySelector("html").style.overflowY = "hidden";
+        document.body.addEventListener("touchmove", preventDefault, {
+          passive: false,
+        });
+      }
+
+      function enableScroll() {
+        document.body.style.overflowY = "auto";
+        document.querySelector("html").style.overflowY = "auto";
+        document.body.removeEventListener("touchmove", preventDefault);
+      }
+
+      function preventDefault(e) {
+        e.preventDefault();
+      }
+    </script>
+    <!-- lưu lịch  -->
+    <script>
+      document.querySelectorAll(".ripple-btn").forEach((btn) => {
+        btn.addEventListener("click", function (e) {
+          const circle = document.createElement("span");
+          circle.classList.add("ripple");
+          this.appendChild(circle);
+
+          const d = Math.max(this.clientWidth, this.clientHeight);
+          circle.style.width = circle.style.height = d + "px";
+
+          const rect = this.getBoundingClientRect();
+          circle.style.left = e.clientX - rect.left - d / 2 + "px";
+          circle.style.top = e.clientY - rect.top - d / 2 + "px";
+
+          setTimeout(() => circle.remove(), 600);
+        });
+      });
+    </script>
+    <!-- tránh thông tin  -->
+    <script>
+      document.addEventListener("contextmenu", (event) =>
+        event.preventDefault()
+      );
+    </script>
+    <script>
+      document.addEventListener("keydown", function (e) {
+        if (
+          (e.ctrlKey && (e.key === "u" || e.key === "U")) || // Ctrl+U
+          e.key === "F12" ||
+          (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) // DevTools
+        ) {
+          e.preventDefault();
+          alert("Tính năng bị tắt để bảo vệ nội dung. 😊");
+        }
+      });
+    </script>
+    <!-- Hiệu ứng pháo hoa -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <!-- hiệu ứng hoa lá tim rơi  -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <div
+      id="particles-js"
+      style="
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+      "
+    ></div>
+    <!-- Thông báo validate -->
+    <div
+      id="alert-popup"
+      style="
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+      "
+    >
+      <div
+        style="
+          background: white;
+          padding: 30px 20px;
+          border-radius: 12px;
+          text-align: center;
+          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+          max-width: 90%;
+        "
+      >
+        <p style="font-size: 18px; margin-bottom: 15px">
+          🎉 Vui lòng nhập tên hoặc biệt danh trước khi xác nhận nhé!
+        </p>
+        <button
+          onclick="hideAlertPopup()"
+          style="
+            padding: 8px 20px;
+            background: #d63384;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+          "
+        >
+          OK
+        </button>
+      </div>
+    </div>
+    <script>
+      function showAlertPopup() {
+        document.getElementById("alert-popup").style.display = "flex";
+      }
+
+      function hideAlertPopup() {
+        document.getElementById("alert-popup").style.display = "none";
+      }
+    </script>
+    <!-- hiệu ứng của animate-custom  -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const fadeEls = document.querySelectorAll(
+          ".fade-in-up, .fade-in-left, .fade-in-right"
+        );
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("animate");
+              } else {
+                entry.target.classList.remove("animate"); // cho phép reset hiệu ứng nếu rời khỏi màn hình
+              }
+            });
+          },
+          { threshold: 0.2 }
+        );
+
+        fadeEls.forEach((el) => observer.observe(el));
+      });
+    </script>
+    <!-- lưu lịch ip và andoid -->
+    <script>
+      function isiOS() {
+        return /iPhone|iPad|Macintosh/i.test(navigator.userAgent);
+      }
+
+      function handleCalendarClick() {
+        if (isiOS()) {
+          // iPhone hoặc Mac → tải file .ics
+          window.location.href = "wedding.ics";
+        } else {
+          // Android hoặc PC → mở Google Calendar
+          window.open(
+            "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Đám%20Cưới%20Hải%20%26%20Phương&dates=20260104T103000/20260104T123000&details=Hải%20%26%20Phương%20hân%20hoan%20kính%20mời%20bạn%20đến%20chung%20vui%20cùng%20gia%20đình%20trong%20ngày%20trọng%20đại%20của%20chúng%20mình.&location=Trung%20Tâm%20Tiệc%20Cưới%20A.Dõng%20Palace%2C%2064%20Trần%20Phú%2C%20Hà%20Lam%2C%20Thăng%20Bình&ctz=Asia/Ho_Chi_Minh",
+            "_blank"
+          );
+        }
+      }
+    </script>
+    <!-- hiệu ứng bông chạy  -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const flowers = document.querySelectorAll(".gla_animated_flower");
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                const img = entry.target;
+                const src = img.getAttribute("src");
+                img.setAttribute("src", ""); // reset src để stop ảnh cũ
+                img.setAttribute("src", src); // gán lại src để ảnh chạy lại
+              }
+            });
+          },
+          {
+            threshold: 0.5, // khoảng 50% ảnh hiển thị mới kích hoạt
+          }
+        );
+
+        flowers.forEach((flower) => {
+          observer.observe(flower);
+        });
+      });
+    </script>
+
+    <!-- tham dự  -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const scrollBtn = document.getElementById("scroll-to-start");
+        scrollBtn.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector("#fh5co-started").scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+
+    <!-- // chuyển tên  -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Lấy tham số "name" từ URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const guestNameParam = urlParams.get("name");
+
+        if (guestNameParam) {
+          // Chuyển dấu '-' thành khoảng trắng và decode
+          let guestName = decodeURIComponent(guestNameParam.replace(/-/g, " "));
+
+          // Hàm viết hoa chữ cái đầu mỗi từ
+          // function capitalize(str) {
+          //   return str.replace(/\b\w/g, (c) => c.toUpperCase());
+          // }
+          // guestName = capitalize(guestName);
+
+          // Update phần <strong>Quý Khách</strong> thành tên mới
+          const guestNameElement = document.querySelector("p.alt-font strong");
+          if (guestNameElement) {
+            guestNameElement.innerText = guestName;
+          }
+          if (guestName) {
+            const decodedName = decodeURIComponent(
+              guestName.replace(/-/g, " ")
+            );
+            document.getElementById("guestName").innerText = decodedName;
+
+            // Cập nhật phần "Gửi" bên ngoài thiệp
+            const sendToElement = document.getElementById("send-to");
+            if (sendToElement) sendToElement.innerText = `Gửi: ${decodedName}`;
+          }
+
+          // Update tiêu đề trang luôn
+          document.title = `💖 Thiệp cưới — Hải & Phương kính mời ${guestName} 💖`;
+        }
+      });
+    </script>
+    
+    <!-- Script xử lý nút bật/tắt nhạc và tooltip -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const musicToggleBtn = document.getElementById("music-toggle-btn");
+        const musicIcon = document.getElementById("music-icon");
+        const music = document.getElementById("music");
+        const tooltip = document.getElementById("music-tooltip");
+        
+        // Đảm bảo nhạc mặc định là tắt
+        music.pause();
+        music.currentTime = 0;
+        let isPlaying = false;
+        
+        // Hiển thị tooltip khi trang load (sau khi mở thiệp)
+        const startbtn = document.getElementById("startbtn");
+        const bg = document.getElementsByClassName("my-bg")[0];
+        
+        // Kiểm tra xem thiệp đã được mở chưa
+        function showTooltipIfNeeded() {
+          // Chỉ hiển thị tooltip nếu thiệp đã được mở (bg đã ẩn)
+          if (bg.style.display === "none" || window.getComputedStyle(bg).display === "none") {
+            tooltip.classList.add("show");
+            
+            // Tự động ẩn sau 3 giây
+            setTimeout(() => {
+              tooltip.classList.remove("show");
+            }, 3000);
+          }
+        }
+        
+        // Lắng nghe sự kiện click vào thiệp để hiển thị tooltip
+        startbtn.addEventListener("click", () => {
+          setTimeout(() => {
+            showTooltipIfNeeded();
+          }, 500); // Delay một chút để đảm bảo trang đã load xong
+        });
+        
+        // Nếu trang đã load và thiệp đã mở (khi refresh), hiển thị tooltip
+        if (bg.style.display === "none" || window.getComputedStyle(bg).display === "none") {
+          setTimeout(() => {
+            showTooltipIfNeeded();
+          }, 500);
+        }
+        
+        // Xử lý click vào nút loa
+        musicToggleBtn.addEventListener("click", function () {
+          if (isPlaying) {
+            // Đang phát → Tắt nhạc
+            music.pause();
+            musicIcon.textContent = "🔇";
+            isPlaying = false;
+          } else {
+            // Đang tắt → Bật nhạc
+            music.play().catch(function(error) {
+              // Xử lý lỗi nếu trình duyệt chặn autoplay
+              console.log("Không thể phát nhạc:", error);
+            });
+            musicIcon.textContent = "🔊";
+            isPlaying = true;
+            
+            // Ẩn tooltip khi người dùng đã bấm nút
+            tooltip.classList.remove("show");
+          }
+        });
+        
+        // Cập nhật trạng thái icon khi nhạc kết thúc hoặc bị tạm dừng
+        music.addEventListener("pause", function() {
+          if (music.currentTime > 0 && !music.ended) {
+            musicIcon.textContent = "🔇";
+            isPlaying = false;
+          }
+        });
+        
+        music.addEventListener("play", function() {
+          musicIcon.textContent = "🔊";
+          isPlaying = true;
+        });
+      });
+    </script>
+  </body>
+</html>
